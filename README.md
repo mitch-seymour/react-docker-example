@@ -9,3 +9,16 @@ $ docker build -t mseymour/myapp .
 ```bash
 $ docker run -p 8000:8000 -ti mseymour/myapp
 ```
+
+You should see the following output.
+
+```bash
+┌────────────────────────────────────────────────┐
+│                                                │
+│   Serving!                                     │
+│                                                │
+│   - Local:            http://localhost:8000    │
+│   - On Your Network:  http://172.17.0.2:8000   │
+│                                                │
+└────────────────────────────────────────────────┘
+```
