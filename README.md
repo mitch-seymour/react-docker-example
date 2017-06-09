@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-It provides an example of how to use serve a React app with Docker.
+An example of how to serve a React app (built with [Create React App](https://github.com/facebookincubator/create-react-app)) using Docker.
 
 ### Building an image
 ```bash
